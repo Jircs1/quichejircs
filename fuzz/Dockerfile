@@ -18,7 +18,7 @@ RUN make build-fuzz
 ##
 ## quiche-libfuzzer: quiche image for fuzzing
 ##
-FROM debian:latest as quiche-libfuzzer
+FROM debian:12.6 as quiche-libfuzzer
 
 LABEL maintainer="alessandro@cloudflare.com"
 
